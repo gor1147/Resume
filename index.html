@@ -3,138 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <title>CV</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="City.jpg" width="350" alt="здесь должно быть фото" /></td>
-            <td>
-                <h1>Бабяшкин Герман</h1>
-                <h3>43 года, Москва, Россия</h3>
-                <h3><a href="https://linkedin.com/in/german-babiashkin-03a76a21a" target="_blank">Linkedin</a>
-                </h3>
-                <h3><a href="Total Resume Eng.html" target="_blank">Total Resume Eng</a>
-                </h3>
-                </h3>
-                <h3><a href="Total Resume Rus.html" target="_blank">Total Resume Rus</a>
-                </h3>
-            </td>
-        </tr>
-    </table>
-    <hr size="4" color="blue" width="100%" />
-    <h2>ВАРИАНТЫ ТРУДОУСТРОЙСТВА</h2>
-    <h3>
-        <em>
-            <ul type="circle">
-                <li>Оформление по трудовой книжке</li>
-                <li>Оформление по гражданско-правовому договору - Индивидуальный предприниматель</li>
-            </ul>
-        </em>
-    </h3>
-    <br />
-    <hr size="4" color="blue" width="100%" />
-    <h2>КЛЮЧЕВЫЕ НАВЫКИ</h2>
-    <h3>
-        <p>Базовые основы программирования:</p>
-        <em>
-            <ul type="square">
-                <li>Тестирование QA Testing - начальный уровень</li>
-                <li>HTML - начальный уровень</li>
-                <li>CSS - начальный уровень</li>
-                <li>Javascript - начальный уровень</li>
-                <li>SQL - начальный уровень</li>
-                <li>Jira - начальный уровень</li>
-            </ul>
-        </em>
-    </h3>
-    <br />
-    <hr size="4" color="blue" width="100%" />
-    <h2>ОПЫТ РАБОТЫ</h2>
-    <br />
-    <table>
-        <tr>
-            <th>ПЕРИОД РАБОТЫ</th>
-            <th>ОПИСАНИЕ</th>
-        </tr>
-        <tr>
-            <td>март 2022 - по настоящее время</td>
-            <td>Изучение базовых основ программирования. Используя HTML, CSS, Javascript - создан сайт-резюме.</td>
-        </tr>
-        <tr>
-            <td>март 2005 - март 2022</td>
-            <td>Отечественные и зарубежные производственные и торговые компании - в должности Менеджера по
-                оптовым продажам промышленных антикоррозионных покрытий, в том числе в качестве Руководителя
-                направления. Технологическая поддержка клиентов.</td>
-        </tr>
-        <tr>
-            <td>сентябрь 2000 - ноябрь 2004</td>
-            <td>Промышленные предприятия - в должности инженера.</td>
-        </tr>
-    </table>
-    <br />
-    <hr size="4" color="blue" width="100%" />
-    <h2>ОБРАЗОВАНИЕ</h2>
-    <h3>
-        <ul>
-            <li>“Московский институт стали и сплавов", <a href="https://misis.ru/" target="_blank">НИТУ МИСиС</a>,
-                2000г. </li>
-        </ul>
-    </h3>
-    <p><em>Факультет цветных и драгоценных металлов - <strong>Инженер </strong>по специальности “Металлургия цветных
-            металлов”,
-            <strong>диплом</strong></em></p>
-    <h3>
-        <ul>
-            <li>“Московская академия предпринимательства”, <a href="https://www.mosap.ru/" target="_blank">МосАП</a>,
-                2004г.</li>
-        </ul>
-    </h3>
-    <p><em>Факультет внешнеэкономической деятельности - <strong>Экономист </strong>по специальности “Мировая экономика”,
-            <strong>диплом</strong></em></p>
-    <h3>
-        <ul>
-            <li>Дополнительное образование, март 2022г. - по настоящее время</li>
-        </ul>
-    </h3>
-    <p>Практические интернет курсы по основам программирования</p>
-    <br />
-    <hr size="4" color="blue" width="100%" />
-    <h2>ЗНАНИЕ ИНОСТРАННЫХ ЯЗЫКОВ</h2>
-    <ol>
-        <li><strong>Английский язык - B1, Intermediate. </strong>Сертификат IELTS 2021г. Средний балл 5,0</li>
-        <li><strong>Немецкий язык - А1, Beginner.</strong></li>
-    </ol>
-    <br />
-    <hr size="4" color="blue" width="100%" />
-    <h2>ЛИЧНЫЕ КАЧЕСТВА</h2>
-    <ul>
-        <li>Упорство в достижении цели</li>
-        <li>Организованность</li>
-        <li>Пунктуальность</li>
-        <li>Ответственность</li>
-    </ul>
-    <br />
-    <hr size="4" color="blue" width="100%" />
-    <h2>СВЯЗАТЬСЯ СО МНОЙ</h2>
-    <form>
-        <label for="name">Ваше имя</label>
-        <input type="text" id="name" placeholder="Введите имя">
-        <br />
-        <br />
-        <label for="E-mail">E-mail</label>
-        <input type="E-mail" id="E-mail" placeholder="Введите E-mail">
-        <br />
-        <br />
-        <label for="text">Ваше сообщение</label>
-        <br />
-        <textarea id="text" rows="5" cols="40" placeholder="Введите текст"></textarea>
-        <br />
-        <br />
-        <input type="submit" value="Отправить">
-    </form>
-    <br />
-    <br />
+    <div class="container">
+        <div class="source">
+            <img src="City.jpg" alt="здесь должно быть фото" class="foto" />
+            <h1>Бабяшкин Герман</h1>
+            <h2>43 года, Москва, Россия</h2>
+            <h3><a href="https://linkedin.com/in/german-babiashkin-03a76a21a" target="_blank">Linkedin</a>
+            </h3>
+            <h3><a href="Total Resume Eng.html" target="_blank">Total Resume Eng</a>
+            </h3>
+            <h3><a href="Total Resume Rus.html" target="_blank">Total Resume Rus</a>
+            </h3>
+        </div>
+
+        <div class="variant">
+            <h2>ВАРИАНТЫ ТРУДОУСТРОЙСТВА</h2>
+            <h3>
+                <em>
+                    <ul type="circle">
+                        <li>Оформление по трудовой книжке</li>
+                        <li>Оформление по гражданско-правовому договору - Индивидуальный предприниматель</li>
+                    </ul>
+                </em>
+            </h3>
+        </div>
+
+        <div class="skills">
+            <h2>КЛЮЧЕВЫЕ НАВЫКИ</h2>
+            <h3>
+                <p>Базовые основы программирования:</p>
+                <em>
+                    <ul type="square">
+                        <li>Тестирование QA Testing - начальный уровень</li>
+                        <li>HTML - начальный уровень</li>
+                        <li>CSS - начальный уровень</li>
+                        <li>Javascript - начальный уровень</li>
+                        <li>SQL - начальный уровень</li>
+                        <li>Jira - начальный уровень</li>
+                    </ul>
+                </em>
+            </h3>
+        </div>
+
+        <div class="experience">
+            <h2>ОПЫТ РАБОТЫ</h2>
+            <table>
+                <tr>
+                    <th>ПЕРИОД РАБОТЫ</th>
+                    <th>ОПИСАНИЕ</th>
+                </tr>
+                <tr>
+                    <td><em><strong>март 2022 - по настоящее время</strong></em></td>
+                    <td><strong>Изучение базовых основ программирования. Используя HTML, CSS, Javascript - создан
+                        сайт-резюме.</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td><em><strong>март 2005 - март 2022</strong></em></td>
+                    <td><strong>Отечественные и зарубежные производственные и торговые компании - в должности Менеджера по
+                        оптовым продажам промышленных антикоррозионных покрытий, в том числе в качестве Руководителя
+                        направления. Технологическая поддержка клиентов.</strong></td>
+                </tr>
+                <h3>
+                    <tr>
+                        <td><em><strong>сентябрь 2000 - ноябрь 2004</strong></em></td>
+                        <td><strong>Промышленные предприятия - в должности инженера.</strong></td>
+                    </tr>
+            </table>
+        </div>
+
+        <div class="education">
+            <h2>ОБРАЗОВАНИЕ</h2>
+            <h3>
+                <ul>
+                    <li>“Московский институт стали и сплавов", <a href="https://misis.ru/" target="_blank">НИТУ
+                            МИСиС</a>,
+                        2000г. </li>
+                </ul>
+            </h3>
+            <p><em>Факультет цветных и драгоценных металлов - <strong>Инженер </strong>по специальности “Металлургия
+                    цветных
+                    металлов”,
+                    <strong>диплом</strong></em></p>
+            <h3>
+                <ul>
+                    <li>“Московская академия предпринимательства”, <a href="https://www.mosap.ru/"
+                            target="_blank">МосАП</a>,
+                        2004г.</li>
+                </ul>
+            </h3>
+            <p><em>Факультет внешнеэкономической деятельности - <strong>Экономист </strong>по специальности “Мировая
+                    экономика”,
+                    <strong>диплом</strong></em></p>
+            <h3>
+                <ul>
+                    <li>Дополнительное образование, март 2022г. - по настоящее время</li>
+                </ul>
+            </h3>
+            <p>Практические интернет курсы по основам программирования</p>
+        </div>
+
+        <div class="languages">
+            <h2>ЗНАНИЕ ИНОСТРАННЫХ ЯЗЫКОВ</h2>
+            <h4>
+                <ol>
+                    <li><strong>Английский язык - B1, Intermediate. </strong>Сертификат IELTS 2021г. Средний балл 5,0
+                    </li>
+                    <li><strong>Немецкий язык - А1, Beginner.</strong></li>
+                </ol>
+            </h4>
+        </div>
+
+        <div class="feature">
+            <h2>ЛИЧНЫЕ КАЧЕСТВА</h2>
+            <h4>
+                <ul>
+                    <li>Упорство в достижении цели</li>
+                    <li>Организованность</li>
+                    <li>Пунктуальность</li>
+                    <li>Ответственность</li>
+                </ul>
+            </h4>
+        </div>
+
+        <div class="contacts">
+            <h2>СВЯЗАТЬСЯ СО МНОЙ</h2>
+            <form>
+                <label for="name"><strong>Ваше имя</strong></label>
+                <input type="text" id="name" placeholder="Введите имя">
+                <br />
+                <br />
+                <label for="E-mail"><strong>E-mail</strong></label>
+                <input type="E-mail" id="E-mail" placeholder="Введите E-mail">
+                <br />
+                <br />
+                <label for="text"><strong>Ваше сообщение</strong></label>
+                <br />
+                <textarea id="text" rows="5" cols="40" placeholder="Введите текст"></textarea>
+                <br />
+                <br />
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
+
+        <div class="box-model">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div style="margin-bottom: 300px" ;>
+    </div>
+    </div>
 </body>
 
 </html>

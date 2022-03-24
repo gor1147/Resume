@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(236, 240, 240);
+  color: rgb(46, 28, 28);
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  color: rgb(121, 89, 151);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(24, 24, 245);
+}
+a:visited {
+  color: rgb(121, 182, 121);
+}
+
+.source {
+  background: rgb(236, 240, 240);
+  padding: 0px 25px;
+  border: solid;
+  border-top-color: rgb(236, 240, 240);
+  border-right-color: rgb(236, 240, 240);
+  border-bottom-color: rgb(236, 240, 240);
+  border-left-color: rgb(109, 104, 104);
+  border-left-width: 10px;
+  margin: 20px 20px;
+}
+
+.foto {
+  width: 270px;
+  border-radius: 30px;
+  box-shadow: -17px 17px 10px rgba(1, 8, 8, 0.25);
+}
+
+.container {
+  max-width: 75%;
+  margin: 60px;
+}
+
+.skills {
+  background: rgb(241, 241, 227);
+  padding: 0px 25px;
+  border: 6px solid rgb(199, 231, 202);
+  border-left-color: rgb(109, 104, 104);
+  border-left-width: 10px;
+  margin: 20px 20px;
+}
+
+.experience {
+  background: rgb(207, 228, 219);
+  padding: 0px 25px;
+  border: 6px solid rgb(204, 201, 202);
+  border-left-color: rgb(109, 104, 104);
+  border-left-width: 10px;
+  margin: 20px 20px;
+}
+
+.education {
+  background: rgb(214, 237, 241);
+  padding: 0px 25px;
+  border: 6px solid rgb(236, 213, 238);
+  border-left-color: rgb(109, 104, 104);
+  border-left-width: 10px;
+  margin: 20px 20px;
+}
+.contacts {
+  background: rgb(228, 220, 207);
+  padding: 0px 25px;
+  border: 6px solid rgb(218, 243, 206);
+  border-left-color: rgb(109, 104, 104);
+  border-left-width: 10px;
+  margin: 20px 20px;
+}
