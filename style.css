@@ -42,7 +42,7 @@ a:visited {
   border-left-color: rgb(109, 104, 104);
   border-left-width: 10px;
   margin: 20px 20px;
-  }
+}
 
 .skills {
   background: rgb(241, 241, 227);
@@ -65,15 +65,6 @@ a:visited {
   border-radius: 10px;
 }
 
-.variant {
-  background: rgb(235, 245, 221);
-  padding: 0px 25px;
-  border: 6px solid rgb(243, 234, 205);
-  border-left-color: rgb(109, 104, 104);
-  border-left-width: 10px;
-  margin: 20px 20px;
-  border-radius: 10px;
-}
 .education {
   background: rgb(214, 237, 241);
   padding: 0px 25px;
@@ -82,7 +73,7 @@ a:visited {
   border-left-width: 10px;
   margin: 20px 20px;
   border-radius: 10px;
-  }
+}
 
 .languages {
   background: rgb(228, 220, 207);
@@ -110,7 +101,7 @@ a:visited {
   border: 6px solid rgb(171, 192, 173);
   border-left-color: rgb(109, 104, 104);
   border-left-width: 10px;
-  margin: 20px 20px;
+  margin: 0px 20px;
   border-radius: 10px;
 }
 
@@ -124,11 +115,56 @@ a:visited {
   box-sizing: border-box;
   border-radius: 10px;
 }
+
 .list {
   padding-left: 25px;
-  margin-bottom: 30px;
-  }
+  margin-bottom: 0px;
+}
 
-.list li {
-  margin-bottom: 20px;
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 15px;
+}
+
+.table th {
+  padding-bottom: 15px;
+}
+
+.table td:nth-child(1) {
+  color: rgb(17, 17, 121);
+}
+
+.table tr:nth-child(even) {
+  background: rgb(238, 213, 217);
+}
+
+.education p {
+  border-bottom: 1px solid rgb(41, 40, 40);
+  padding-bottom: 20px;
+}
+
+.contacts h2 {
+  text-align: center;
+}
+
+.form label {
+  display: block;
+  font-size: 16px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(170, 166, 166);
+  color: black;
+  padding: 15px 5px 15px;
+  outline: none;
+  font-family: inherit;
+  font-size: 18px;
 }
