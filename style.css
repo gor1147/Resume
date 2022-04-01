@@ -22,14 +22,14 @@ a:visited {
 }
 
 .foto {
-  width: 240px;
+  width: 220px;
   border-radius: 30px;
   box-shadow: -17px 17px 10px rgba(1, 8, 8, 0.25);
 }
 
 .container {
   max-width: 75%;
-  margin: 60px;
+  margin: 50px;
 }
 
 .source {
@@ -42,6 +42,23 @@ a:visited {
   border-left-color: rgb(109, 104, 104);
   border-left-width: 10px;
   margin: 20px 20px;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .source {
+    text-align: center;
+    display: block;
+  }
+}
+
+.source-info {
+  margin-left: 60px;
+  margin-top: 0px;
+}
+
+.source-info h2 {
+  margin-bottom: 60px;
 }
 
 .skills {
@@ -105,6 +122,20 @@ a:visited {
   border-radius: 10px;
 }
 
+.button {
+  color: white;
+  background: rgb(83, 81, 81);
+  padding: 10px 25px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
 .box-model > div {
   float: left;
   background: rgb(142, 169, 184);
@@ -163,8 +194,59 @@ a:visited {
   background: transparent;
   border-bottom: 1px solid rgb(170, 166, 166);
   color: black;
-  padding: 15px 5px 15px;
+  padding: 15px 0px 15px;
   outline: none;
   font-family: inherit;
   font-size: 18px;
+}
+
+.row {
+  /* display: none; */
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form {
+  width: 50%;
+  margin-right: 40px;
+}
+
+.row > .form:last-child {
+  margin-right: 0px;
+}
+
+.position {
+  position: relative;
+  border: 4px solid rgb(236, 240, 240);
+  margin: 20px 20px;
+  padding: 0px;
+  height: 0px;
+}
+
+.box1 {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 10%;
+  right: 18%;
+  background: rgb(141, 164, 167);
+  border-radius: 50%;
+}
+
+.box2 {
+  position: fixed;
+  width: 100px;
+  height: 250px;
+  top: 10%;
+  right: 16%;
+  background: rgb(135, 155, 158);
+}
+
+.box3 {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background: rgb(86, 94, 95);
 }
